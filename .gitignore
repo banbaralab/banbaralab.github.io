@@ -1,0 +1,29 @@
+## Mac Finder
+.DS_store
+
+## LaTeX
+/**/auto/
+*.dvi
+*.aux
+*.nav
+*.out
+*.snm
+*.toc
+*.bbl
+*.blg
+*.lol
+*.lot
+*.lof
+*.log
+*.vrb
+*.idx
+*.ilg
+*.ind
+
+# Python
+__pycache__/
+
+## emacs 
+*.*~
+#*.*#
+
