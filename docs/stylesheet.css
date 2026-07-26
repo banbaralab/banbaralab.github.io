@@ -161,3 +161,21 @@ span.highlight {
   /* 中心を上に20％ずらすなど微調整 */
   display: block;
 }
+
+/*
+:root{
+  --accent: #115eff;     /* 刺し色 */
+  --bar-height: 20px;     /* バーの太さ */
+}
+
+
+/* 上端 1 本だけの背景を重ねる */
+body{
+  background:
+    linear-gradient(to right, var(--accent) 0 100%, transparent 100% 100%) no-repeat,
+    /* 既存の background がある場合は下に続けて書く */
+    var(--body-bg, none);
+  background-size: 100% var(--bar-height);
+  background-position: left top;
+}
+*/
